@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html,body{
+
+    height: 100%;
+    width: 100%;
+    
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/restaurant.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+button{
+    
+    color: #1F2937;
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFFFFF;
+    
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+    z-index: 82;
+    
+}
+button:active{
+    scale: 0.95;
+}
